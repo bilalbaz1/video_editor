@@ -13,7 +13,10 @@ Following steps will help you add this library as a dependency in your flutter p
 
 ```yaml
 dependencies:
-  video_editor_2: ^3.1.0
+  video_editor_2:
+    git:
+      url: https://github.com/bilalbaz1/video_editor.git
+      ref: WRITE_LATEST_REF
 ```
 
 - Import the package in your code:
