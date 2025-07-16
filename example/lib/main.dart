@@ -16,11 +16,6 @@ void main() => runApp(
         theme: ThemeData(
           primarySwatch: Colors.grey,
           brightness: Brightness.dark,
-          tabBarTheme: const TabBarTheme(
-            indicator: UnderlineTabIndicator(
-              borderSide: BorderSide(color: Colors.white),
-            ),
-          ),
           dividerColor: Colors.white,
         ),
         home: const VideoEditorExample(),
